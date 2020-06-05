@@ -8,5 +8,5 @@ In this standard, a token belongs only to a physical address — an account repr
 
 ### Address Contract
 It is a check on different types of Addresses like zero(0x0) address, contract address, externally owned account addresses etc.
-* read comminted text in **Address.sol** *.
+* read comminted text in **Address.sol**.
 
