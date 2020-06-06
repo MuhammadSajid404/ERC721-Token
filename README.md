@@ -19,3 +19,7 @@ ERC721 interface standard allows for the implementation of a standard API for NF
 
 ### SafeMath
 Arithmetic operations in Solidity wrap on overflow. This can easily result in bugs, because programmers usually assume that an overflow raises an error, which is the standard behavior in high level programming languages. `SafeMath` restores this intuition by reverting the transaction when an operation overflows.
+
+### myPauseAble
+A pausable contract has mechanisms to stop smart contract functionalities such as transfer or approval.
+Every asset contract should have this functionality. There are several benefits of a pausable contract. The primary benefit of the pausable token contract is safety. In case of any contract vulnerability which may be needed to update the contract, pausing can stop transfers and other core functionalities which reduces overall risk.
