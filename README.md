@@ -17,5 +17,5 @@ As you can guess supportsInterface for ERC165 returns true. Each interface has a
 ### IERC721
 ERC721 interface standard allows for the implementation of a standard API for NFTs within smart contracts. This standard provides basic functionality to track and transfer NFTs. Check the [EIP 721: ERC-721 Non-Fungible Token Standard](https://eips.ethereum.org/EIPS/eip-721).
 
-###SafeMath
+### SafeMath
 Arithmetic operations in Solidity wrap on overflow. This can easily result in bugs, because programmers usually assume that an overflow raises an error, which is the standard behavior in high level programming languages. `SafeMath` restores this intuition by reverting the transaction when an operation overflows.
