@@ -23,3 +23,12 @@ Arithmetic operations in Solidity wrap on overflow. This can easily result in bu
 ### myPauseAble
 A pausable contract has mechanisms to stop smart contract functionalities such as transfer or approval.
 Every asset contract should have this functionality. There are several benefits of a pausable contract. The primary benefit of the pausable token contract is safety. In case of any contract vulnerability which may be needed to update the contract, pausing can stop transfers and other core functionalities which reduces overall risk.
+
+### ERC721
+Token standards can be summarized and compared in the following ways:
+Ownership — How is token ownership handled?
+Creation — How are tokens created?
+Transfer & Allowance — How are tokens transferred, and how do we allow other addresses transfer capability?
+Burn — How do we burn or destroy a token?
+
+Understanding how these operations work helps to put a complete picture of how a token standard works. [OpenZeppelin ERC721Token.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC721) full implementation and amalgamates some additional knowledge of Solidity and other EIPs.
