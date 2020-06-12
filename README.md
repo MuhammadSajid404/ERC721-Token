@@ -32,3 +32,7 @@ Transfer & Allowance — How are tokens transferred, and how do we allow other a
 Burn — How do we burn or destroy a token?
 
 Understanding how these operations work helps to put a complete picture of how a token standard works. [OpenZeppelin ERC721Token.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC721) full implementation and amalgamates some additional knowledge of Solidity and other EIPs.
+
+### KDASchemeIII
+KDASchemeIII is a version of real life scenario which is implemented in solidity.
+in KDASchemeIII you can register a property, sell property through whole process in which you can accept or reject buyer offer.
